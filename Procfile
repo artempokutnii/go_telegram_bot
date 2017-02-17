@@ -1,1 +1,1 @@
-web: tel_bot
+web: tel-bot
