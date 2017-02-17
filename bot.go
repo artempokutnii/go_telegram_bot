@@ -3,10 +3,11 @@ package main
 import (
     "log"
     "gopkg.in/telegram-bot-api.v4"
+    "github.com/joho/godotenv"
 )
 
 func main() {
-    bot, err := tgbotapi.NewBotAPI("api_key")
+    bot, err := tgbotapi.NewBotAPI("TELEGRAM_API_KEY")
     if err != nil {
         log.Panic(err)
     }
